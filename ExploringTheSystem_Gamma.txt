@@ -1,0 +1,92 @@
+Last login: Tue Feb 11 14:36:02 on ttys000
+maclab-110:~ faste001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+maclab-110:~ faste001$ ls /usr
+bin		lib		libexec		local		sbin		share		standalone
+maclab-110:~ faste001$ ls ~/usr
+ls: /Users/faste001/usr: No such file or directory
+maclab-110:~ faste001$ cd
+maclab-110:~ faste001$ ls ~/usr
+ls: /Users/faste001/usr: No such file or directory
+maclab-110:~ faste001$ ls ~ /usr
+/Users/faste001:
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+
+/usr:
+bin		lib		libexec		local		sbin		share		standalone
+maclab-110:~ faste001$ ls -l
+total 0
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Desktop
+drwx------+  5 faste001  UWP\Domain Users   160 Feb 11 14:37 Documents
+drwx------+  5 faste001  UWP\Domain Users   160 Feb 11 14:13 Downloads
+drwx------@ 57 faste001  UWP\Domain Users  1824 Feb  6 15:20 Library
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Movies
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Music
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Pictures
+drwxr-xr-x+  4 faste001  UWP\Domain Users   128 Feb  6 13:38 Public
+drwxr-xr-x   4 faste001  UWP\Domain Users   128 Feb 11 14:41 PycharmProjects
+maclab-110:~ faste001$ ls -lt
+total 0
+drwxr-xr-x   4 faste001  UWP\Domain Users   128 Feb 11 14:41 PycharmProjects
+drwx------+  5 faste001  UWP\Domain Users   160 Feb 11 14:37 Documents
+drwx------+  5 faste001  UWP\Domain Users   160 Feb 11 14:13 Downloads
+drwx------@ 57 faste001  UWP\Domain Users  1824 Feb  6 15:20 Library
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Desktop
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Movies
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Music
+drwx------+  3 faste001  UWP\Domain Users    96 Feb  6 13:38 Pictures
+drwxr-xr-x+  4 faste001  UWP\Domain Users   128 Feb  6 13:38 Public
+maclab-110:~ faste001$ ls -lt --reverse
+ls: illegal option -- -
+usage: ls [-ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1] [file ...]
+maclab-110:~ faste001$ cd
+maclab-110:~ faste001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+maclab-110:~ faste001$ cd PychardProjects
+-bash: cd: PychardProjects: No such file or directory
+maclab-110:~ faste001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+maclab-110:~ faste001$ cd PycharmProjects
+maclab-110:PycharmProjects faste001$ ls
+AndrewRepo	Fastenau-Andrew
+maclab-110:PycharmProjects faste001$ cd Fastenau-Andrew
+maclab-110:Fastenau-Andrew faste001$ ls
+WhatIsTheShell_Gamma.txt
+maclab-110:Fastenau-Andrew faste001$ file WhatIsTheShell_Gamma.txt
+WhatIsTheShell_Gamma.txt: ASCII text
+maclab-110:Fastenau-Andrew faste001$ less WhatIsTheShell_Gamma.txt 
+maclab-110:Fastenau-Andrew faste001$ less WhatIsTheShell_Gamma.txt 
+maclab-110:Fastenau-Andrew faste001$ ls -lt -r
+total 8
+-rw-r--r--@ 1 faste001  UWP\Domain Users  3867 Feb  6 15:00 WhatIsTheShell_Gamma.txt
+maclab-110:Fastenau-Andrew faste001$ ls -lt 
+total 8
+-rw-r--r--@ 1 faste001  UWP\Domain Users  3867 Feb  6 15:00 WhatIsTheShell_Gamma.txt
+maclab-110:Fastenau-Andrew faste001$ q
+-bash: q: command not found
+maclab-110:Fastenau-Andrew faste001$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
