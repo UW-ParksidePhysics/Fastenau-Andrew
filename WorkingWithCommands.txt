@@ -1,0 +1,171 @@
+Last login: Thu Feb 13 13:59:22 on console
+maclab-110:~ faste001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+maclab-110:~ faste001$ cp
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-110:~ faste001$ mv
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+maclab-110:~ faste001$ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+maclab-110:~ faste001$ rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+maclab-110:~ faste001$ ln
+usage: ln [-Ffhinsv] source_file [target_file]
+       ln [-Ffhinsv] source_file ... target_dir
+       link source_file target_file
+maclab-110:~ faste001$ ls
+Desktop		Documents	Downloads	Library		Movies		Music		Pictures	Public		PycharmProjects
+maclab-110:~ faste001$ cd Documents
+maclab-110:Documents faste001$ ls
+Navigation.txt
+maclab-110:Documents faste001$ mkdir dir1
+maclab-110:Documents faste001$ mkdir dir2 dir3
+maclab-110:Documents faste001$ ls
+Navigation.txt	dir1		dir2		dir3
+maclab-110:Documents faste001$ mv Navigation.txt dir1
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ cp ./dir1/Navigation.txt ./dir2/Navigation.txt
+maclab-110:Documents faste001$ cp ./dir1/Navigation.txt ./dir3/Navigation.txt
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ cp ./dir1/Navigation.txt .
+maclab-110:Documents faste001$ ls
+Navigation.txt	dir1		dir2		dir3
+maclab-110:Documents faste001$ rm -iv Navigation.txt
+remove Navigation.txt? y
+Navigation.txt
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ rm -if ./dir1/Navigation.txt
+maclab-110:Documents faste001$ cd dir1
+maclab-110:dir1 faste001$ ls
+maclab-110:dir1 faste001$ cd ..
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ cd dir2
+maclab-110:dir2 faste001$ ls
+Navigation.txt
+maclab-110:dir2 faste001$ cd..
+-bash: cd..: command not found
+maclab-110:dir2 faste001$ ls
+Navigation.txt
+maclab-110:dir2 faste001$ cd ..
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ mkdir playground
+maclab-110:Documents faste001$ cd playground
+maclab-110:playground faste001$ ls
+maclab-110:playground faste001$ mkdir dir1 dir2
+maclab-110:playground faste001$ ls
+dir1	dir2
+maclab-110:playground faste001$ cp /etc/passwd .
+maclab-110:playground faste001$ ls -l
+total 16
+drwxr-xr-x  2 faste001  UWP\Domain Users    64 Feb 13 14:24 dir1
+drwxr-xr-x  2 faste001  UWP\Domain Users    64 Feb 13 14:24 dir2
+-rw-r--r--  1 faste001  UWP\Domain Users  6804 Feb 13 14:24 passwd
+maclab-110:playground faste001$ cp -v /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-110:playground faste001$ cp -i /etc/passwd
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+maclab-110:playground faste001$ mv passwd fun
+maclab-110:playground faste001$ ls
+dir1	dir2	fun
+maclab-110:playground faste001$ mv fun dir1
+maclab-110:playground faste001$ mv dir1/fun dir2
+maclab-110:playground faste001$ mv dir2/fun .
+maclab-110:playground faste001$ mv fun dir1
+maclab-110:playground faste001$ mv dir1 dir2
+maclab-110:playground faste001$ ls -l dir2
+total 0
+drwxr-xr-x  3 faste001  UWP\Domain Users  96 Feb 13 14:27 dir1
+maclab-110:playground faste001$ ls -l dir2/dir1
+total 16
+-rw-r--r--  1 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun
+maclab-110:playground faste001$ mv dir2/dir1
+usage: mv [-f | -i | -n] [-v] source target
+       mv [-f | -i | -n] [-v] source ... directory
+maclab-110:playground faste001$ mv dir1/fun .
+mv: rename dir1/fun to ./fun: No such file or directory
+maclab-110:playground faste001$ ls
+dir2
+maclab-110:playground faste001$ mv dir/dir1 .
+mv: rename dir/dir1 to ./dir1: No such file or directory
+maclab-110:playground faste001$ mv dir2/dir1 .
+maclab-110:playground faste001$ ls
+dir1	dir2
+maclab-110:playground faste001$ mv dir1/fun .
+maclab-110:playground faste001$ ls
+dir1	dir2	fun
+maclab-110:playground faste001$ ln fun fun-hard
+maclab-110:playground faste001$ ln fun dir1/fun-hard
+maclab-110:playground faste001$ ln fun dir2/fun-hard
+maclab-110:playground faste001$ ls -l
+total 32
+drwxr-xr-x  3 faste001  UWP\Domain Users    96 Feb 13 14:30 dir1
+drwxr-xr-x  3 faste001  UWP\Domain Users    96 Feb 13 14:30 dir2
+-rw-r--r--  4 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun
+-rw-r--r--  4 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun-hard
+maclab-110:playground faste001$ ls -li
+total 32
+4366498 drwxr-xr-x  3 faste001  UWP\Domain Users    96 Feb 13 14:30 dir1
+4366499 drwxr-xr-x  3 faste001  UWP\Domain Users    96 Feb 13 14:30 dir2
+4366500 -rw-r--r--  4 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun
+4366500 -rw-r--r--  4 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun-hard
+maclab-110:playground faste001$ ln -s fun fun-sym
+maclab-110:playground faste001$ ln -s fun dir1/fun-sym
+maclab-110:playground faste001$ ln -s fun dir2/fun-sym
+maclab-110:playground faste001$ ls -l dir1
+total 16
+-rw-r--r--  4 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun-hard
+lrwxr-xr-x  1 faste001  UWP\Domain Users     3 Feb 13 14:31 fun-sym -> fun
+maclab-110:playground faste001$ ln -s dir1 dir1-sym
+maclab-110:playground faste001$ rm fun-hard
+maclab-110:playground faste001$ ls -l
+total 16
+drwxr-xr-x  4 faste001  UWP\Domain Users   128 Feb 13 14:31 dir1
+lrwxr-xr-x  1 faste001  UWP\Domain Users     4 Feb 13 14:31 dir1-sym -> dir1
+drwxr-xr-x  4 faste001  UWP\Domain Users   128 Feb 13 14:31 dir2
+-rw-r--r--  3 faste001  UWP\Domain Users  6804 Feb 13 14:24 fun
+lrwxr-xr-x  1 faste001  UWP\Domain Users     3 Feb 13 14:30 fun-sym -> fun
+maclab-110:playground faste001$ rm -i fun
+remove fun? y
+maclab-110:playground faste001$ ls -l
+total 0
+drwxr-xr-x  4 faste001  UWP\Domain Users  128 Feb 13 14:31 dir1
+lrwxr-xr-x  1 faste001  UWP\Domain Users    4 Feb 13 14:31 dir1-sym -> dir1
+drwxr-xr-x  4 faste001  UWP\Domain Users  128 Feb 13 14:31 dir2
+lrwxr-xr-x  1 faste001  UWP\Domain Users    3 Feb 13 14:30 fun-sym -> fun
+maclab-110:playground faste001$ less fun-sym
+fun-sym: No such file or directory
+maclab-110:playground faste001$ rm fun-sym dir1-sym
+maclab-110:playground faste001$ ls -l
+total 0
+drwxr-xr-x  4 faste001  UWP\Domain Users  128 Feb 13 14:31 dir1
+drwxr-xr-x  4 faste001  UWP\Domain Users  128 Feb 13 14:31 dir2
+maclab-110:playground faste001$ cd
+maclab-110:~ faste001$ cd -r playground
+-bash: cd: -r: invalid option
+cd: usage: cd [-L|-P] [dir]
+maclab-110:~ faste001$ cd d
+-bash: cd: d: No such file or directory
+maclab-110:~ faste001$ cd 
+maclab-110:~ faste001$ rm -r /Documents/playground
+rm: /Documents/playground: No such file or directory
+maclab-110:~ faste001$ rm -r /Documents/Playground
+rm: /Documents/Playground: No such file or directory
+maclab-110:~ faste001$ cd Documents
+maclab-110:Documents faste001$ ls
+dir1		dir2		dir3		playground
+maclab-110:Documents faste001$ rm -r playground
+maclab-110:Documents faste001$ ls
+dir1	dir2	dir3
+maclab-110:Documents faste001$ 
