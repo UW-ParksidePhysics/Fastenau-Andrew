@@ -1,0 +1,104 @@
+Last login: Tue Feb 18 14:03:01 on console
+maclab-110:~ faste001$ ls -l /usr/bin > ls-output.txt
+maclab-110:~ faste001$ ls -l ls-output.txt
+-rw-r--r--  1 faste001  UWP\Domain Users  63967 Feb 18 14:09 ls-output.txt
+maclab-110:~ faste001$ less ls-output.txt
+maclab-110:~ faste001$ ls -l /bin/usr > ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-110:~ faste001$ ls -l ls-output.txt
+-rw-r--r--  1 faste001  UWP\Domain Users  0 Feb 18 14:11 ls-output.txt
+maclab-110:~ faste001$ ls -l /usr/bin >> ls-output.txt
+maclab-110:~ faste001$ ls -l /usr/bin >> ls-output.txt
+maclab-110:~ faste001$ ls -l /usr/bin >> ls-output.txt
+maclab-110:~ faste001$ ls - ls-output.txt
+ls: -: No such file or directory
+ls-output.txt
+maclab-110:~ faste001$ ls -l ls-output.txt
+-rw-r--r--  1 faste001  UWP\Domain Users  191901 Feb 18 14:14 ls-output.txt
+maclab-110:~ faste001$ ls -l /bin/usr 2> ls-error.txt
+maclab-110:~ faste001$ ls -l /bin/usr > ls-output.txt 2>&1
+maclab-110:~ faste001$ ls -l /bin/usr &> ls-output.txt
+maclab-110:~ faste001$ ls -l /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-110:~ faste001$ ls -l /bin/usr &> ls-output.txt
+maclab-110:~ faste001$ ls -l /bin/usr &>> ls-output.txt
+-bash: syntax error near unexpected token `>'
+maclab-110:~ faste001$ ls -l /bin/usr &> ls-output.txt
+maclab-110:~ faste001$ ls -l /bin/usr 2> /dev/null
+maclab-110:~ faste001$ cat ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-110:~ faste001$ type ls-output.txt
+-bash: type: ls-output.txt: not found
+maclab-110:~ faste001$ cat
+The quick brown fox jumped over the lazy dog
+The quick brown fox jumped over the lazy dog
+
+
+maclab-110:~ faste001$ cat > lazy_dog.txt
+The quick brown fox jumped over the lazy dog
+maclab-110:~ faste001$ cat lazy_dog.txt
+The quick brown fox jumped over the lazy dog
+maclab-110:~ faste001$ cat < lazy_dog.txt
+The quick brown fox jumped over the lazy dog
+maclab-110:~ faste001$ ls -l /usr/bin | less
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | less
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | uniq | less
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | uniq -d | less
+maclab-110:~ faste001$ wc ls-output.txt
+       1       7      40 ls-output.txt
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | uniq | wx -l
+-bash: wx: command not found
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | uniq | wc -l
+    1006
+maclab-110:~ faste001$ ls /bin /usr/bin | sort | uniq | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+maclab-110:~ faste001$ head -n 5 ls-output.txt
+ls: /bin/usr: No such file or directory
+maclab-110:~ faste001$ ls -l /usr/bin > ls-output.txt
+maclab-110:~ faste001$ head -n 5 ls-output.txt
+total 104520
+-rwxr-xr-x   4 root   wheel        925 Feb 22  2019 2to3-
+lrwxr-xr-x   1 root   wheel         74 May  4  2019 2to3-2.7 -> ../../System/Library/Frameworks/Python.framework/Versions/2.7/bin/2to3-2.7
+-rwxr-xr-x   1 root   wheel      55152 May  4  2019 AssetCacheLocatorUtil
+-rwxr-xr-x   1 root   wheel      53552 May  4  2019 AssetCacheManagerUtil
+maclab-110:~ faste001$ ls /usr/bin | tail -n 5
+zipsplit
+zless
+zmore
+znew
+zprint
+maclab-110:~ faste001$ tail -f /var/log/messages
+tail: /var/log/messages: No such file or directory
+maclab-110:~ faste001$ ls /usr/bin | tee ls.txt | grep zip
+bunzip2
+bzip2
+bzip2recover
+funzip
+gunzip
+gzip
+unzip
+unzipsfx
+zip
+zipcloak
+zipdetails
+zipdetails5.18
+zipgrep
+zipinfo
+zipnote
+zipsplit
+maclab-110:~ faste001$ 
