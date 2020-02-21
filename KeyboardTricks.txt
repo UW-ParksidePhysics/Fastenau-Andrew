@@ -1,0 +1,1260 @@
+ 208  cd /usr/bin
+  209  pwd
+  210  cd ..
+  211  pwd
+  212  cd ./bin
+  213  cd -
+  214  cd
+  215  ls -a
+  216  ls
+  217  cd /home/Andrew Fastenau/Desktop
+  218  cd Desktop
+  219  cd
+  220  ls
+  221  - ls
+  222  .cd
+  223  cd.
+  224  ~cd
+  225  cd~
+  226  cd ~
+  227  ls
+  228  ~
+  229  cd /home
+  230  ls
+  231  cd Desktop
+  232  cd Desktop/
+  233  cd /
+  234  ls
+  235  cd ~/Desktop
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd ..
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd ..
+  248  ls
+  249  exit
+  250  git add
+  251  history
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ clear
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo this is a test line
+this is a test line
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo this is a test line
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo this is a test line
+this is a test line
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo this is a test line
+this is a test line
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo this is a test line
+this is a test line
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls l
+ls: cannot access 'l': No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls ls-output.txt
+ls: cannot access 'ls-output.txt': No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cp ls-output.txt
+cp: missing destination file operand after 'ls-output.txt'
+Try 'cp --help' for more information.
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ mv ls-output.txt
+mv: missing destination file operand after 'ls-output.txt'
+Try 'mv --help' for more information.
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ mkdir ls-output.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls
+act.pdb      gcc_volume.xmgr    gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls ls-output.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls
+'act.pdb      gcc_volume.xmgr   gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ~
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls
+act.pdb      gcc_volume.xmgr    gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ..
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd ~
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ..
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls Andrew Fastenau
+ls: cannot access 'Andrew': No such file or directory
+ls: cannot access 'Fastenau': No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls Andrew\ Fastenau/
+act.pdb      gcc_volume.xmgr    gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ history | less
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ history | grep /usr/bin
+  204  cd /usr/bin
+  207  /usr/bin
+  208  cd /usr/bin
+  275  history | grep /usr/bin
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd ~/usr
+-bash: cd: /home/Andrew Fastenau/usr: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls /usr
+bin                 include  man    ssl
+i586-pc-msdosdjgpp  lib      sbin   tmp
+i686-pc-cygwin      libexec  share  x86_64-pc-cygwin
+i686-w64-mingw32    local    src    x86_64-w64-mingw32
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd Andrew\ Fastenau/
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls
+act.pdb      gcc_volume.xmgr    gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls /usr
+bin                 include  man    ssl
+i586-pc-msdosdjgpp  lib      sbin   tmp
+i686-pc-cygwin      libexec  share  x86_64-pc-cygwin
+i686-w64-mingw32    local    src    x86_64-w64-mingw32
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ..
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd /usr
+
+Andrew Fastenau@DESKTOP-BP37MGB /usr
+$ ls
+bin                 include  man    ssl
+i586-pc-msdosdjgpp  lib      sbin   tmp
+i686-pc-cygwin      libexec  share  x86_64-pc-cygwin
+i686-w64-mingw32    local    src    x86_64-w64-mingw32
+
+Andrew Fastenau@DESKTOP-BP37MGB /usr
+$ cd bin
+
+Andrew Fastenau@DESKTOP-BP37MGB /usr/bin
+$ ls
+'[.exe'                                   false.exe
+ 2to3                                     fgrep
+ 2to3-3.6                                 file.exe
+ addftinfo.exe                            filterdiff.exe
+ addr2line.exe                            find.exe
+ afm2pl.exe                               fixcvsdiff
+ afm2tfm.exe                              flipdiff
+ akonadi2xml.exe                          flock.exe
+ akonaditest.exe                          fmt.exe
+ aleph.exe                                fmtutil
+ allcm                                    fmtutil-sys
+ allec                                    fmtutil-user
+ allneeded                                fold.exe
+ anytooff.exe                             font2c
+ anytoucd.exe                             freetype-config
+ apropos                                  ftdi_eeprom.exe
+ ar.exe                                   futurize
+ arch.exe                                 fzf
+ as.exe                                   fzf-tmux
+ ash.exe                                  g++.exe
+ autosp.exe                               gapplication.exe
+ awk                                      gawk.exe
+ b2sum.exe                                gawk-4.2.0.exe
+ base32.exe                               gbh3
+ base64.exe                               gbh3.gambas
+ basename.exe                             gbr3
+ bash.exe                                 gbx3.exe
+ bashbug                                  gcc.exe
+ bbox.exe                                 gcc-ar.exe
+ bdy.exe                                  gcc-nm.exe
+ bez2mesh.exe                             gcc-ranlib.exe
+ bg5conv.exe                              gconf-merge-tree.exe
+ bibtex.exe                               gconftool-2.exe
+ bibtex8.exe                              gcov.exe
+ bibtexu.exe                              gcov-dump.exe
+ broadwayd.exe                            gcov-tool.exe
+ bugzilla                                 gcps2vec.py
+ build-docbook-catalog                    gcps2wld.py
+ bunzip2.exe                              gcr-viewer.exe
+ bzcat.exe                                gda-control-center-5.0.exe
+ bzcmp                                    gdal_auth.py
+ bzdiff                                   gdal_calc.py
+ bzegrep                                  gdal_edit.py
+ bzfgrep                                  gdal_fillnodata.py
+ bzgrep                                   gdal_merge.py
+ bzip2.exe                                gdal_pansharpen.py
+ bzip2recover.exe                         gdal_polygonize.py
+ bzless                                   gdal_proximity.py
+ bzmore                                   gdal_retile.py
+ bzr                                      gdal_sieve.py
+ c++.exe                                  gdal2tiles.py
+ c++filt.exe                              gdal2xyz.py
+ c89                                      gdalchksum.py
+ c99                                      gdalcompare.py
+ caca-config                              gdalident.py
+ cal.exe                                  gdalimport.py
+ ca-legacy                                gda-list-config
+ cantor.exe                               gda-list-config-5.0.exe
+ cantor_python3server.exe                 gda-list-server-op
+ captoinfo                                gda-list-server-op-5.0.exe
+ cat.exe                                  gdalmove.py
+ catman.exe                               gda-sql
+ cc                                       gda-sql-5.0.exe
+ cdv                                      gda-test-connection-5.0.exe
+ cdv-agent                                gdbus.exe
+ cdvpasswd                                gdbus-codegen
+ cdvserver                                gdiffmk
+ cdvupgrade                               gdk-pixbuf-csource.exe
+ cef5conv.exe                             gdk-pixbuf-pixdata.exe
+ cefconv.exe                              gdk-pixbuf-query-loaders.exe
+ cefsconv.exe                             gedi
+ cervisia.exe                             gem
+ cfftot1.exe                              gendiff
+ cftp                                     gentrigrams.exe
+ chardetect                               geomview
+ chcon.exe                                getconf.exe
+ checkXML5.exe                            getent.exe
+ chgrp.exe                                getfacl.exe
+ chktex.exe                               getopt.exe
+ chmod.exe                                gex
+ chown.exe                                gfortran.exe
+ chroot.exe                               gftodvi.exe
+ ckeygen                                  gftopk.exe
+ cksum.exe                                gftype.exe
+ clang                                    gif2h5.exe
+ clang++                                  gifmaker.py
+ clang++-4.0                              gio.exe
+ clang-3.8.exe                            gio-querymodules.exe
+ clang-3.9.exe                            git.exe
+ clang-4.0.exe                            git-clang-format
+ clang-check.exe                          git-cvsserver
+ clang-cpp                                gitg.exe
+ clang-format.exe                         gitk
+ clang-import-test.exe                    git-oodiff
+ clang-offload-bundler.exe                git-receive-pack.exe
+ clear.exe                                git-review
+ clip.exe                                 git-shell.exe
+ cmp.exe                                  git-upload-archive.exe
+ col.exe                                  git-upload-pack.exe
+ colcrt.exe                               gkill.exe
+ colrm.exe                                glade.exe
+ column.exe                               glade-3.exe
+ combinediff                              glade-previewer.exe
+ comm.exe                                 glib-compile-resources.exe
+ conch                                    glib-compile-schemas.exe
+ corelist                                 glib-genmarshal.exe
+ cp.exe                                   glib-gettextize
+ cpan                                     glib-mkenums
+ cpp.exe                                  gnome-keyring
+ createfontdatachunk.py                   gnome-keyring-3.exe
+ csplit.exe                               gnome-keyring-daemon.exe
+ csv2ods                                  gnome-open.exe
+ csv2rdf                                  gnumeric
+ ctangle.exe                              gnumeric-1.12.35.exe
+ ctie.exe                                 gobject-query.exe
+ cut.exe                                  gpg.exe
+ cvs.exe                                  gpgsplit.exe
+ cvs2bzr                                  gpgv.exe
+ cvs2git                                  gpg-zip
+ cvs2svn                                  gprof.exe
+ cvsaskpass.exe                           grap2graph
+ cvsbug                                   gregorio.exe
+ cvsps.exe                                grep.exe
+ cvsservice5.exe                          grepdiff
+ cweave.exe                               gresource.exe
+ cygakonadi-calendar-4.dll                grn.exe
+ cygakonadi-contact-4.dll                 grodvi.exe
+ cygakonadi-kabc-4.dll                    groff.exe
+ cygakonadi-kcal-4.dll                    grolbp.exe
+ cygakonadi-kde-4.dll                     grolj4.exe
+ cygakonadi-kmime-4.dll                   grops.exe
+ cygakonadi-notes-4.dll                   grotty.exe
+ cygakonadiprotocolinternals-1.dll        groups.exe
+ cygakonadi-socialutils-4.dll             gs.exe
+ cygakonadi-xml-4.dll                     gsbj
+ cygapr-1-0.dll                           gsdj
+ cygaprutil-1-0.dll                       gsdj500
+ cygarchive-13.dll                        gsettings.exe
+ cygargp-0.dll                            gsettings-data-convert.exe
+ cygart_lgpl_2-2.dll                      gsettings-schema-convert
+ cygaspell-15.dll                         gsftopk.exe
+ cygassuan-0.dll                          gslj
+ cygasyncns-0.dll                         gslp
+ cygatk-1.0-0.dll                         gsnd
+ cygatk-bridge-2.0-0.dll                  gtester.exe
+ cygatomic-1.dll                          gtester-report
+ cygatspi-0.dll                           gtk-builder-convert
+ cygattica-0.4.dll                        gtk-launch.exe
+ cygattr-1.dll                            gtk-query-immodules-2.0.exe
+ cygaudio-2.dll                           gtk-query-immodules-3.0.exe
+ cygavahi-client-3.dll                    gtk-query-settings.exe
+ cygavahi-common-3.dll                    gtk-update-icon-cache.exe
+ cygavahi-glib-1.dll                      gunzip
+ cygavogadro_OpenQube-0.dll               gview
+ cygavogadro-1.dll                        gvim.exe
+ cygblkid-1.dll                           gvimdiff
+ cygbonobo-2-0.dll                        gvimtutor
+ cygbonobo-activation-4.dll               gzexe
+ cygbonoboui-2-0.dll                      gzip.exe
+ cygboost_mpi_python-1_63.dll             h2ph
+ cygboost_mpi_python3-1_63.dll            h2xs
+ cygboost_mpi-1_63.dll                    h52gif.exe
+ cygboost_python-1_60.dll                 h5c++
+ cygboost_python-1_63.dll                 h5cc
+ cygboost_python3-1_63.dll                h5copy.exe
+ cygboost_serialization-1_63.dll          h5debug.exe
+ cygboost_wserialization-1_63.dll         h5diff.exe
+ cygbotan-1.10-1.dll                      h5dump.exe
+ cygbz2-1.dll                             h5import.exe
+ cygcaca-0.dll                            h5jam.exe
+ cygcairo-2.dll                           h5ls.exe
+ cygcairo-gobject-2.dll                   h5mkgrp.exe
+ cygcairo-script-interpreter-2.dll        h5perf_serial.exe
+ cygcanberra-0.dll                        h5redeploy
+ cygcantor_config.dll                     h5repack.exe
+ cygcantor_pythonbackend.dll              h5repart.exe
+ cygcantorlibs-17.dll                     h5stat.exe
+ cygcdt-5.dll                             h5unjam.exe
+ cygcfitsio-3.dll                         hbf2gf.exe
+ cygcgraph-6.dll                          head.exe
+ cygcheck.exe                             hexdump.exe
+ cygchm-0.dll                             hostid.exe
+ cygclang-3.8.dll                         hostname.exe
+ cygclang-3.9.dll                         hpftodit.exe
+ cygclang-4.0.dll                         hvectext
+ cygclangAnalysis-3.8.dll                 i586-pc-msdosdjgpp-addr2line.exe
+ cygclangAnalysis-3.9.dll                 i586-pc-msdosdjgpp-ar.exe
+ cygclangAnalysis-4.0.dll                 i586-pc-msdosdjgpp-as.exe
+ cygclangARCMigrate-3.8.dll               i586-pc-msdosdjgpp-c++filt.exe
+ cygclangARCMigrate-3.9.dll               i586-pc-msdosdjgpp-cpp.exe
+ cygclangARCMigrate-4.0.dll               i586-pc-msdosdjgpp-elfedit.exe
+ cygclangAST-3.8.dll                      i586-pc-msdosdjgpp-gcc.exe
+ cygclangAST-3.9.dll                      i586-pc-msdosdjgpp-gcc-5.4.0.exe
+ cygclangAST-4.0.dll                      i586-pc-msdosdjgpp-gcc-ar.exe
+ cygclangASTMatchers-3.8.dll              i586-pc-msdosdjgpp-gcc-nm.exe
+ cygclangASTMatchers-3.9.dll              i586-pc-msdosdjgpp-gcc-ranlib.exe
+ cygclangASTMatchers-4.0.dll              i586-pc-msdosdjgpp-gcov.exe
+ cygclangBasic-3.8.dll                    i586-pc-msdosdjgpp-gcov-tool.exe
+ cygclangBasic-3.9.dll                    i586-pc-msdosdjgpp-gfortran.exe
+ cygclangBasic-4.0.dll                    i586-pc-msdosdjgpp-gprof.exe
+ cygclangCodeGen-3.8.dll                  i586-pc-msdosdjgpp-ld.bfd.exe
+ cygclangCodeGen-3.9.dll                  i586-pc-msdosdjgpp-ld.exe
+ cygclangCodeGen-4.0.dll                  i586-pc-msdosdjgpp-nm.exe
+ cygclangDriver-3.8.dll                   i586-pc-msdosdjgpp-objcopy.exe
+ cygclangDriver-3.9.dll                   i586-pc-msdosdjgpp-objdump.exe
+ cygclangDriver-4.0.dll                   i586-pc-msdosdjgpp-ranlib.exe
+ cygclangDynamicASTMatchers-3.8.dll       i586-pc-msdosdjgpp-readelf.exe
+ cygclangDynamicASTMatchers-3.9.dll       i586-pc-msdosdjgpp-size.exe
+ cygclangDynamicASTMatchers-4.0.dll       i586-pc-msdosdjgpp-strings.exe
+ cygclangEdit-3.8.dll                     i586-pc-msdosdjgpp-strip.exe
+ cygclangEdit-3.9.dll                     i586-pc-msdosdjgpp-stubedit.exe
+ cygclangEdit-4.0.dll                     i586-pc-msdosdjgpp-stubify.exe
+ cygclangFormat-3.8.dll                   i686-pc-cygwin-addr2line.exe
+ cygclangFormat-3.9.dll                   i686-pc-cygwin-ar.exe
+ cygclangFormat-4.0.dll                   i686-pc-cygwin-as.exe
+ cygclangFrontend-3.8.dll                 i686-pc-cygwin-c++.exe
+ cygclangFrontend-3.9.dll                 i686-pc-cygwin-c++filt.exe
+ cygclangFrontend-4.0.dll                 i686-pc-cygwin-cpp.exe
+ cygclangFrontendTool-3.8.dll             i686-pc-cygwin-dlltool.exe
+ cygclangFrontendTool-3.9.dll             i686-pc-cygwin-dllwrap.exe
+ cygclangFrontendTool-4.0.dll             i686-pc-cygwin-elfedit.exe
+ cygclangIndex-3.8.dll                    i686-pc-cygwin-g++.exe
+ cygclangIndex-3.9.dll                    i686-pc-cygwin-gcc.exe
+ cygclangIndex-4.0.dll                    i686-pc-cygwin-gcc-6.4.0.exe
+ cygclangLex-3.8.dll                      i686-pc-cygwin-gcc-ar.exe
+ cygclangLex-3.9.dll                      i686-pc-cygwin-gcc-nm.exe
+ cygclangLex-4.0.dll                      i686-pc-cygwin-gcc-ranlib.exe
+ cygclangParse-3.8.dll                    i686-pc-cygwin-gcov.exe
+ cygclangParse-3.9.dll                    i686-pc-cygwin-gcov-dump.exe
+ cygclangParse-4.0.dll                    i686-pc-cygwin-gcov-tool.exe
+ cygclangRewrite-3.8.dll                  i686-pc-cygwin-gfortran.exe
+ cygclangRewrite-3.9.dll                  i686-pc-cygwin-gprof.exe
+ cygclangRewrite-4.0.dll                  i686-pc-cygwin-ld.bfd.exe
+ cygclangRewriteFrontend-3.8.dll          i686-pc-cygwin-ld.exe
+ cygclangRewriteFrontend-3.9.dll          i686-pc-cygwin-nm.exe
+ cygclangRewriteFrontend-4.0.dll          i686-pc-cygwin-objcopy.exe
+ cygclangSema-3.8.dll                     i686-pc-cygwin-objdump.exe
+ cygclangSema-3.9.dll                     i686-pc-cygwin-ranlib.exe
+ cygclangSema-4.0.dll                     i686-pc-cygwin-readelf.exe
+ cygclangSerialization-3.8.dll            i686-pc-cygwin-size.exe
+ cygclangSerialization-3.9.dll            i686-pc-cygwin-strings.exe
+ cygclangSerialization-4.0.dll            i686-pc-cygwin-strip.exe
+ cygclangStaticAnalyzerCheckers-3.8.dll   i686-pc-cygwin-windmc.exe
+ cygclangStaticAnalyzerCheckers-3.9.dll   i686-pc-cygwin-windres.exe
+ cygclangStaticAnalyzerCheckers-4.0.dll   i686-w64-mingw32-addr2line.exe
+ cygclangStaticAnalyzerCore-3.8.dll       i686-w64-mingw32-ar.exe
+ cygclangStaticAnalyzerCore-3.9.dll       i686-w64-mingw32-as.exe
+ cygclangStaticAnalyzerCore-4.0.dll       i686-w64-mingw32-c++.exe
+ cygclangStaticAnalyzerFrontend-3.8.dll   i686-w64-mingw32-c++filt.exe
+ cygclangStaticAnalyzerFrontend-3.9.dll   i686-w64-mingw32-cpp.exe
+ cygclangStaticAnalyzerFrontend-4.0.dll   i686-w64-mingw32-dlltool.exe
+ cygclangTooling-3.8.dll                  i686-w64-mingw32-dllwrap.exe
+ cygclangTooling-3.9.dll                  i686-w64-mingw32-elfedit.exe
+ cygclangTooling-4.0.dll                  i686-w64-mingw32-g++.exe
+ cygclangToolingCore-3.8.dll              i686-w64-mingw32-gcc.exe
+ cygclangToolingCore-3.9.dll              i686-w64-mingw32-gcc-6.4.0.exe
+ cygclangToolingCore-4.0.dll              i686-w64-mingw32-gcc-ar.exe
+ cygcom_err-2.dll                         i686-w64-mingw32-gcc-nm.exe
+ cygconfuse-1.dll                         i686-w64-mingw32-gcc-ranlib.exe
+ cygcroco-0.6-3.dll                       i686-w64-mingw32-gcov.exe
+ cygcrypt-0.dll                           i686-w64-mingw32-gcov-dump.exe
+ cygcrypto-1.0.0.dll                      i686-w64-mingw32-gcov-tool.exe
+ cygcurl-4.dll                            i686-w64-mingw32-gfortran.exe
+ cygdatrie-1.dll                          i686-w64-mingw32-gprof.exe
+ cygdb                                    i686-w64-mingw32-ld.bfd.exe
+ cygdb_cxx-5.3.dll                        i686-w64-mingw32-ld.exe
+ cygdb_sql-5.3.dll                        i686-w64-mingw32-nm.exe
+ cygdb3                                   i686-w64-mingw32-objcopy.exe
+ cygdb-5.3.dll                            i686-w64-mingw32-objdump.exe
+ cygdbus-1-3.dll                          i686-w64-mingw32-pkg-config.exe
+ cygdbus-glib-1-2.dll                     i686-w64-mingw32-ranlib.exe
+ cygdbusmenu-qt-2.dll                     i686-w64-mingw32-readelf.exe
+ cygdbusmenu-qt5-2.dll                    i686-w64-mingw32-size.exe
+ cygdialog-13.dll                         i686-w64-mingw32-strings.exe
+ cygdialog-14.dll                         i686-w64-mingw32-strip.exe
+ cygdiscid-0.dll                          i686-w64-mingw32-windmc.exe
+ cygdmtx-0.dll                            i686-w64-mingw32-windres.exe
+ cygdotconf-0.dll                         iconv.exe
+ cygedit-0.dll                            id.exe
+ cygEGL-1.dll                             idle2
+ cygenchant-1.dll                         idle2.7
+ cygEnginio-1.dll                         idle3
+ cygepoxy-0.dll                           idle3.6
+ cygespeak-1.dll                          indxbib.exe
+ cygexpat-1.dll                           info.exe
+ cygexslt-0.dll                           infocmp.exe
+ cygfam-0.dll                             infotocap
+ cygffi-6.dll                             inimf
+ cygFLAC-8.dll                            initex
+ cygflite_cmu_time_awb-1.dll              install.exe
+ cygflite_cmu_us_awb-1.dll                install-catalog
+ cygflite_cmu_us_kal-1.dll                install-info.exe
+ cygflite_cmu_us_kal16-1.dll              instmodsh
+ cygflite_cmu_us_rms-1.dll                interdiff.exe
+ cygflite_cmu_us_slt-1.dll                ipcmk.exe
+ cygflite_cmulex-1.dll                    ipcrm.exe
+ cygflite_usenglish-1.dll                 ipcs.exe
+ cygflite-1.dll                           iptest
+ cygfluidsynth-1.dll                      iptest2
+ cygfontconfig-1.dll                      iptest3
+ cygformw-10.dll                          ipython
+ cygfreebl3.chk                           ipython2
+ cygfreebl3.dll                           ipython3
+ cygfreetype-6.dll                        irb
+ cygftdi1-2.dll                           isosize.exe
+ cygftdipp1-2.dll                         join.exe
+ cyggailutil-18.dll                       json_pp
+ cyggamin-1-0.dll                         kate-syntax-highlighter.exe
+ cyggcc_s-seh-1.dll                       kbuildsycoca4.exe
+ cyggck-1-0.dll                           kbuildsycoca5.exe
+ cyggconf-2-4.dll                         kcookiejar4.exe
+ cyggcr-base-3-1.dll                      kcookiejar5.exe
+ cyggcr-ui-3-1.dll                        kde4-config.exe
+ cyggcrypt-20.dll                         kded4.exe
+ cyggd-3.dll                              kdeinit4.exe
+ cyggda-5.0-4.dll                         kdeinit4_shutdown.exe
+ cyggdal-20.dll                           kdeinit4_wrapper.exe
+ cyggda-report-5.0-4.dll                  kdesvn.exe
+ cyggda-ui-5.0-4.dll                      kdesvnaskpass.exe
+ cyggda-xslt-5.0-4.dll                    kglobalaccel5.exe
+ cyggdbm_compat-4.dll                     kiconfinder5.exe
+ cyggdbm-4.dll                            kill.exe
+ cyggdk_pixbuf-2.0-0.dll                  kjs.exe
+ cyggdk-3-0.dll                           kjscmd.exe
+ cyggdk-x11-2.0-0.dll                     kmailservice.exe
+ cyggee-0.8-2.dll                         kpseaccess.exe
+ cyggeoclue-0.dll                         kpsepath
+ cygGeoIP-1.dll                           kpsereadlink.exe
+ cyggeomview-1-9-5.dll                    kpsestat.exe
+ cyggeos_c-1.dll                          kpsetool
+ cyggeos-3-5-0.dll                        kpsewhere
+ cyggeos-3-5-1.dll                        kpsewhich.exe
+ cyggeotiff-2.dll                         kpsexpand
+ cyggfortran-3.dll                        kquitapp5.exe
+ cyggif-4.dll                             kreadconfig5.exe
+ cyggio-2.0-0.dll                         kross.exe
+ cyggirepository-1.0-1.dll                kshell4.exe
+ cyggit2-23.dll                           ktelnetservice.exe
+ cyggit2-24.dll                           ktelnetservice5.exe
+ cyggit2-25.dll                           ktrash5.exe
+ cyggit2-glib-1.0-0.dll                   kwalletd5.exe
+ cyggitg-1.0-0.dll                        kwallet-query.exe
+ cyggitg-ext-1.0-0.dll                    kwrapper4.exe
+ cygGL-1.dll                              kwriteconfig5.exe
+ cygglade-2.0-0.dll                       lacheck.exe
+ cyggladeui-1-11.dll                      lastlog.exe
+ cyggladeui-2-6.dll                       latex
+ cygglapi-0.dll                           ld.bfd.exe
+ cyggle-3.dll                             ld.exe
+ cygGLEW-1-13.dll                         ldd.exe
+ cygGLEWmx-1-13.dll                       ldh.exe
+ cygglib-2.0-0.dll                        less.exe
+ cygGLU-1.dll                             lessecho.exe
+ cygglut-3.dll                            lesskey.exe
+ cyggmime-2.6-0.dll                       lexgrog.exe
+ cyggmodule-2.0-0.dll                     libftdi1-config
+ cyggmp-10.dll                            libIDL-config-2
+ cyggnome-2-0.dll                         libnetcfg
+ cyggnomecanvas-2-0.dll                   libpng16-config
+ cyggnome-keyring-0.dll                   libpng-config
+ cyggnomeui-2-0.dll                       libpython2.7.dll
+ cyggnomevfs-2-0.dll                      libpython3.6m.dll
+ cyggnutls-28.dll                         libtcl8.6.dll
+ cyggnutls-30.dll                         libtk8.6.dll
+ cyggnutls-openssl-27.dll                 link.exe
+ cyggobject-2.0-0.dll                     lkbib.exe
+ cyggoffice-0.10-10.dll                   ln.exe
+ cyggomp-1.dll                            locale.exe
+ cyggoocanvas-3.dll                       locate.exe
+ cyggpg-error-0.dll                       logger.exe
+ cyggpgme++-2.dll                         logilab-pytest
+ cyggpgme++-pthread-2.dll                 login.exe
+ cyggpgme-11.dll                          logname.exe
+ cyggpgmepp-6.dll                         look.exe
+ cyggraphite2-3.dll                       lookbib.exe
+ cyggs-9.dll                              lprsetup.sh
+ cyggsf-1-114.dll                         ls.exe
+ cyggsm-1.dll                             lsdiff
+ cyggssapi_krb5-2.dll                     lua.exe
+ cyggstadaptivedemux-1.0-0.dll            lua-5.1.exe
+ cyggstallocators-1.0-0.dll               luac.exe
+ cyggstapp-1.0-0.dll                      luac-5.1.exe
+ cyggstaudio-1.0-0.dll                    luajittex.exe
+ cyggstbadaudio-1.0-0.dll                 lualatex
+ cyggstbadbase-1.0-0.dll                  luatex.exe
+ cyggstbadvideo-1.0-0.dll                 lwp-download
+ cyggstbase-1.0-0.dll                     lwp-dump
+ cyggstbasecamerabinsrc-1.0-0.dll         lwp-mirror
+ cyggstcodecparsers-1.0-0.dll             lwp-request
+ cyggstcontroller-1.0-0.dll               lynx.exe
+ cyggstfft-1.0-0.dll                      lzcat
+ cyggstinsertbin-1.0-0.dll                lzcmp
+ cyggstmpegts-1.0-0.dll                   lzdiff
+ cyggstnet-1.0-0.dll                      lzegrep
+ cyggstpbutils-1.0-0.dll                  lzfgrep
+ cyggstphotography-1.0-0.dll              lzgrep
+ cyggstplayer-1.0-0.dll                   lzless
+ cyggstreamer-1.0-0.dll                   lzma
+ cyggstriff-1.0-0.dll                     lzmadec.exe
+ cyggstrtp-1.0-0.dll                      lzmainfo.exe
+ cyggstrtsp-1.0-0.dll                     lzmore
+ cyggstsdp-1.0-0.dll                      mag.exe
+ cyggsttag-1.0-0.dll                      mailmail
+ cyggsturidownloader-1.0-0.dll            mailodf
+ cyggstvideo-1.0-0.dll                    makeindex.exe
+ cyggthread-2.0-0.dll                     makejvf.exe
+ cyggtk-3-0.dll                           mako-render
+ cyggtksourceview-2.0-0.dll               man.exe
+ cyggtksourceview-3.0-1.dll               mandb.exe
+ cyggtkspell-0.dll                        manpath.exe
+ cyggtkspell3-3-0.dll                     math2oogl.exe
+ cyggtk-x11-2.0-0.dll                     mcookie.exe
+ cyggtop-2.0-10.dll                       md5sum.exe
+ cyggts-0-7-5.dll                         meinproc4.exe
+ cyggvc-6.dll                             meinproc4_simple.exe
+ cygHalf-12.dll                           meinproc5.exe
+ cygharfbuzz-0.dll                        mendex.exe
+ cygharfbuzz-gobject-0.dll                mf.exe
+ cygharfbuzz-icu-0.dll                    mflua.exe
+ cyghdf5_hl-10.dll                        mfluajit.exe
+ cyghdf5-10.dll                           mf-nowin.exe
+ cyghistory7.dll                          mft.exe
+ cyghogweed-2.dll                         mid3cp
+ cyghogweed-4.dll                         mid3iconv
+ cyghunspell-1.3-0.dll                    mid3v2
+ cyghunspell-1.4-0.dll                    minidumper.exe
+ cyghunspell-1.6-0.dll                    mintheme
+ cygical-1.dll                            mintty.exe
+ cygicalss-1.dll                          mkdir.exe
+ cygicalvcal-1.dll                        mkfifo.exe
+ cygICE-6.dll                             mkgraticule.py
+ cygiconv-2.dll                           mkgroup.exe
+ cygicudata56.dll                         mkindex
+ cygicudata57.dll                         mknod.exe
+ cygicudata58.dll                         mkocp
+ cygicui18n56.dll                         mkofm
+ cygicui18n57.dll                         mkpasswd.exe
+ cygicui18n58.dll                         mkshortcut.exe
+ cygicuio56.dll                           mktemp.exe
+ cygicuio57.dll                           mktexfmt
+ cygicuio58.dll                           mktexlsr
+ cygicule56.dll                           mktexmf
+ cygicule57.dll                           mktexpk
+ cygiculx56.dll                           mktextfm
+ cygiculx57.dll                           mmafm.exe
+ cygicuuc56.dll                           mmpfb.exe
+ cygicuuc57.dll                           moggsplit
+ cygicuuc58.dll                           more.exe
+ cygIDL-2-0.dll                           mount.exe
+ cygidn-11.dll                            mpic++
+ cygidn2-0.dll                            mpicc
+ cygIex-12.dll                            mpicxx
+ cygIexMath-12.dll                        mpiexec
+ cygIlmImf-22.dll                         mpif77
+ cygIlmImfUtil-22.dll                     mpif90
+ cygIlmThread-12.dll                      mpifort
+ cygimagequant-0.dll                      mpirun
+ cygImath-12.dll                          mpost.exe
+ cyginchi-0.dll                           mptopdf
+ cygintl-8.dll                            msgfmt.py
+ cygiodbc-2.dll                           msxlint.exe
+ cygiodbcinst-2.dll                       mutagen-inspect
+ cygisl-13.dll                            mutagen-pony
+ cygisl-15.dll                            mv.exe
+ cygjasper-1.dll                          namei.exe
+ cygjasper-4.dll                          ncview.exe
+ cygjavascriptcoregtk-1.0-0.dll           neqn
+ cygjbig-2.dll                            nice.exe
+ cygjbig85-2.dll                          nl.exe
+ cygjpeg-8.dll                            nm.exe
+ cygjson-c-2.dll                          nohup.exe
+ cygjson-glib-1.0-0.dll                   nosetests-2.7
+ cygk5crypto-3.dll                        nosetests-3.6
+ cygkabc_file_core-4.dll                  nproc.exe
+ cygkabc-4.dll                            nroff
+ cygkalarmcal-2.dll                       numfmt.exe
+ cygkblog-4.dll                           objcopy.exe
+ cygkcal-4.dll                            objdump.exe
+ cygkcalcore-4.dll                        od.exe
+ cygkcalutils-4.dll                       odf2mht
+ cygkcmutils-4.dll                        odf2xhtml
+ cygkde3support-4.dll                     odf2xml
+ cygkdeclarative-5.dll                    odfimgimport
+ cygkdecore-5.dll                         odflint
+ cygkdefakes-5.dll                        odfmeta
+ cygkdeinit4_kbuildsycoca4.dll            odfoutline
+ cygkdeinit4_kconf_update.dll             odfuserfield
+ cygkdeinit4_kded4.dll                    odt2txt.exe
+ cygkdeinit4_kio_http_cache_cleaner.dll   odvicopy.exe
+ cygkdeinit4_klauncher.dll                odvitype.exe
+ cygkdeinit5_cervisia.dll                 offconsol.exe
+ cygkdeinit5_cvsaskpass.dll               ogrmerge.py
+ cygkdeinit5_cvsservice.dll               omfonts.exe
+ cygkdesu-5.dll                           ompi_info.exe
+ cygkdeui-5.dll                           ompi-clean
+ cygkdewebkit-5.dll                       ompi-ps
+ cygkdnssd-4.dll                          ompi-server
+ cygkemoticons-4.dll                      ompi-top
+ cygKF5Archive-5.dll                      oogl2rib.exe
+ cygKF5Attica-5.dll                       oogl2vrml.exe
+ cygKF5Auth-5.dll                         oogl2vrml2.exe
+ cygKF5Bookmarks-5.dll                    opal_wrapper.exe
+ cygKF5Codecs-5.dll                       openssl.exe
+ cygKF5Completion-5.dll                   orbit2-config
+ cygKF5ConfigCore-5.dll                   orbit-idl-2.exe
+ cygKF5ConfigGui-5.dll                    ortecc
+ cygKF5ConfigWidgets-5.dll                orte-clean.exe
+ cygKF5CoreAddons-5.dll                   orted.exe
+ cygKF5Crash-5.dll                        orte-dvm.exe
+ cygKF5DBusAddons-5.dll                   orte-info.exe
+ cygKF5DocTools-5.dll                     orte-ps.exe
+ cygKF5GlobalAccel-5.dll                  orterun.exe
+ cygKF5GlobalAccelPrivate-5.dll           orte-server.exe
+ cygKF5Gpgmepp-5.dll                      orte-submit.exe
+ cygKF5Gpgmepp-pthread-5.dll              orte-top.exe
+ cygKF5GuiAddons-5.dll                    otangle.exe
+ cygKF5I18n-5.dll                         otfinfo.exe
+ cygKF5IconThemes-5.dll                   otftotfm.exe
+ cygKF5ItemViews-5.dll                    otp2ocp.exe
+ cygKF5JobWidgets-5.dll                   outocp.exe
+ cygKF5KIOCore-5.dll                      p11-kit.exe
+ cygKF5KIOFileWidgets-5.dll               painter.py
+ cygKF5KIOGui-5.dll                       pango-view.exe
+ cygKF5KIONTLM-5.dll                      parsetrigrams.exe
+ cygKF5KIOWidgets-5.dll                   passwd.exe
+ cygKF5NewStuff-5.dll                     paste.exe
+ cygKF5NewStuffCore-5.dll                 pasteurize
+ cygKF5Notifications-5.dll                patch.exe
+ cygKF5Parts-5.dll                        patgen.exe
+ cygKF5Pty-5.dll                          pathchk.exe
+ cygKF5QGpgme-5.dll                       pbibtex.exe
+ cygKF5Service-5.dll                      pbr
+ cygKF5Solid-5.dll                        pcre-config
+ cygKF5SonnetCore-5.dll                   pct2rgb.py
+ cygKF5SonnetUi-5.dll                     pdf2dsc
+ cygKF5Su-5.dll                           pdf2ps
+ cygKF5SyntaxHighlighting-5.dll           pdfclose.exe
+ cygKF5TextEditor-5.dll                   pdfetex
+ cygKF5TextWidgets-5.dll                  pdflatex
+ cygKF5Wallet-5.dll                       pdfopen.exe
+ cygKF5WidgetsAddons-5.dll                pdfroff
+ cygKF5WindowSystem-5.dll                 pdftex.exe
+ cygKF5XmlGui-5.dll                       pdftosrc.exe
+ cygkfile-4.dll                           pdvitype.exe
+ cygkholidays-4.dll                       peflags.exe
+ cygkhtml-5.dll                           peflagsall
+ cygkidletime-4.dll                       perl.exe
+ cygkimap-4.dll                           perl5.26.1.exe
+ cygkimproxy-4.dll                        perlbug
+ cygkio-5.dll                             perldoc
+ cygkjs-4.dll                             perlivp
+ cygkjsapi-4.dll                          perlthanks
+ cygkjsembed-4.dll                        pf2afm
+ cygkldap-4.dll                           pfb2pfa.exe
+ cygkmbox-4.dll                           pfbtopfa
+ cygkmediaplayer-4.dll                    pfbtops.exe
+ cygkmime-4.dll                           pg.exe
+ cygknewstuff2-4.dll                      pic.exe
+ cygknewstuff3-4.dll                      pic2graph
+ cygknotifyconfig-4.dll                   piconv
+ cygkntlm-4.dll                           pilconvert.py
+ cygkontactinterface-4.dll                pildriver.py
+ cygkparts-4.dll                          pilfile.py
+ cygkpathsea-6.dll                        pilfont.py
+ cygkpimidentities-4.dll                  pilprint.py
+ cygkpimtextedit-4.dll                    pinky.exe
+ cygkpimutils-4.dll                       pip2
+ cygkprintutils-4.dll                     pip2.7
+ cygkpty-4.dll                            pip3
+ cygkrb5-3.dll                            pip3.6
+ cygkrb5support-0.dll                     pk2bm.exe
+ cygkresources-4.dll                      pkg-config.exe
+ cygkrosscore-4.dll                       pktogf.exe
+ cygkrossui-4.dll                         pktype.exe
+ cygktexteditor-4.dll                     pl2pm
+ cygktnef-4.dll                           player.py
+ cygkunitconversion-4.dll                 pldd.exe
+ cygkunittest-4.dll                       pltotf.exe
+ cygkutils-4.dll                          pmpost.exe
+ cygkwalletbackend5-5.dll                 pmxab.exe
+ cygkxmlrpcclient-4.dll                   pod2html
+ cyglasem-0.4-4.dll                       pod2man
+ cygLASi-1.dll                            pod2text
+ cyglber-2-4-2.dll                        pod2usage
+ cyglcms-1.dll                            podchecker
+ cyglcms2-2.dll                           podselect
+ cygldap_r-2-4-2.dll                      polymerge.exe
+ cygldap-2-4-2.dll                        pooltype.exe
+ cyglightcomp.dll                         post-grohtml.exe
+ cygLLVM-3.8.dll                          pphs
+ cygLLVM-3.9.dll                          ppltotf.exe
+ cygLLVM-4.0.dll                          pr.exe
+ cyglsa64.dll                             preconv.exe
+ cyglsa-config                            pre-grohtml.exe
+ cygltdl-7.dll                            prepmx.exe
+ cyglua-5.1.dll                           printafm
+ cyglua-5.2.dll                           printenv.exe
+ cyglz4-1.dll                             printf.exe
+ cyglzma-5.dll                            prove
+ cyglzo2-2.dll                            ps.exe
+ cygmagic-1.dll                           ps2ascii
+ cygmailtransport-4.dll                   ps2epsi
+ cygman-2-7-5.dll                         ps2pdf
+ cygmandb-2-7-5.dll                       ps2pdf12
+ cygmarisa-0.dll                          ps2pdf13
+ cygmate-menu-2.dll                       ps2pdf14
+ cygmdb-1.dll                             ps2pdfwr
+ cygmdbsql-1.dll                          ps2pk.exe
+ cygmenuw-10.dll                          ps2ps
+ cygmicroblog-4.dll                       ps2ps2
+ cygmikmod-3.dll                          psbook.exe
+ cygming-1.dll                            psnup.exe
+ cygmng-2.dll                             psresize.exe
+ cygmpc-3.dll                             psselect.exe
+ cygmpfr-4.dll                            pstops.exe
+ cygmpi_cxx-1.dll                         ptar
+ cygmpi-12.dll                            ptardiff
+ cygMrm-4.dll                             ptargrep
+ cygmysqlclient-18.dll                    ptex.exe
+ cygncurses++w-10.dll                     ptftopl.exe
+ cygncursesw-10.dll                       ptked
+ cygneon-27.dll                           ptksh
+ cygnetcdf-11.dll                         ptx.exe
+ cygnetsnmp-30.dll                        pwd.exe
+ cygnettle-4.dll                          pwget
+ cygnettle-6.dll                          pydoc
+ cygnghttp2-14.dll                        pydoc2
+ cygnotify-4.dll                          pydoc2.7
+ cygnspr4.dll                             pydoc3
+ cygnss3.dll                              pydoc3.6
+ cygnssdbm3.chk                           pygettext.py
+ cygnssdbm3.dll                           pygmentize
+ cygnssutil3.dll                          pygobject-codegen-2.0
+ cygogg-0.dll                             pygtk-codegen-2.0
+ cygopenal-1.dll                          pygtk-demo
+ cygopenbabel-4.dll                       pyhtmlizer
+ cygopenjp2-7.dll                         pykdeuic4
+ cygopen-pal-13.dll                       pykdeuic4-2.7
+ cygopen-rte-12.dll                       pykdeuic4-3.6
+ cygORBit-2-0.dll                         pyrexc
+ cygORBitCosNaming-2-0.dll                pyrsa-decrypt
+ cygORBit-imodule-2-0.dll                 pyrsa-decrypt-bigfile
+ cygorc-0.4-0.dll                         pyrsa-encrypt
+ cygorc-test-0.4-0.dll                    pyrsa-encrypt-bigfile
+ cygp11-kit-0.dll                         pyrsa-keygen
+ cygpanelw-10.dll                         pyrsa-priv2pub
+ cygpango-1.0-0.dll                       pyrsa-sign
+ cygpangocairo-1.0-0.dll                  pyrsa-verify
+ cygpangoft2-1.0-0.dll                    pytest
+ cygpangoxft-1.0-0.dll                    python
+ cygpaper-1.dll                           python2
+ cygpath.exe                              python2.7.exe
+ cygpathplan-4.dll                        python2.7-config
+ cygpcre-1.dll                            python2-config
+ cygpcre16-0.dll                          python3
+ cygpcre2-16-0.dll                        python3.6
+ cygpcre32-0.dll                          python3.6-config
+ cygpcrecpp-0.dll                         python3.6m.exe
+ cygpcreposix-0.dll                       python3.6m-config
+ cygpeas-1.0-0.dll                        python3-config
+ cygpeas-gtk-1.0-0.dll                    python-config
+ cygperl5_26.dll                          pyvenv3
+ cygphonon-4.dll                          pyvenv-3.6
+ cygphonon4qt5-4.dll                      qdbus-qt4
+ cygphonon4qt5experimental-4.dll          rake
+ cygphononexperimental-4.dll              ranlib.exe
+ cygpipeline-1.dll                        rcs2log
+ cygpixman-1-0.dll                        rdf2dot
+ cygplasma-3.dll                          rdfgraphisomorphism
+ cygplc4.dll                              rdfpipe
+ cygplds4.dll                             rdfs2dot
+ cygpng16-16.dll                          rdoc
+ cygpoppler-66.dll                        readelf.exe
+ cygpoppler-68.dll                        readlink.exe
+ cygpoppler-glib-8.dll                    readshortcut.exe
+ cygpopt-0.dll                            realpath.exe
+ cygportaudio-2.dll                       rebase.exe
+ cygportmidi-0.dll                        rebaseall
+ cygpotrace-0.dll                         rebaselst
+ cygpq-5.dll                              rebase-trigger
+ cygprison-0.dll                          recountdiff
+ cygproj-12.dll                           red
+ cygproj-9.dll                            rediff.exe
+ cygproxy-1.dll                           refer.exe
+ cygpsiconv-6.dll                         regtool.exe
+ cygpsl-5.dll                             remotegv
+ cygpspell-15.dll                         rename.exe
+ cygpst-4.dll                             renice.exe
+ cygptexenc-1.dll                         reset
+ cygpulse-0.dll                           rev.exe
+ cygpulsecommon-10.0.dll                  rgb2pct.py
+ cygpulse-simple-0.dll                    rgview
+ cygpyglib-2.0-python2.7-0.dll            rgvim
+ cygqca-2.dll                             ri
+ cygqgpgme-1.dll                          rm.exe
+ cygqgsttools_p-1.dll                     rmdir.exe
+ cygqhull_p-7.dll                         rpm.exe
+ cygqhull_r-7.dll                         rpm2archive.exe
+ cygqhull-7.dll                           rpm2cpio.exe
+ cygqjson-0.dll                           rpmbuild.exe
+ cygqrencode-3.dll                        rpmdb.exe
+ cygQt3Support-4.dll                      rpmgraph.exe
+ cygQt53DAnimation-5.dll                  rpmkeys.exe
+ cygQt53DCore-5.dll                       rpmquery
+ cygQt53DExtras-5.dll                     rpmsign.exe
+ cygQt53DInput-5.dll                      rpmspec.exe
+ cygQt53DLogic-5.dll                      rpmverify
+ cygQt53DQuick-5.dll                      rst2html.py
+ cygQt53DQuickAnimation-5.dll             rst2html5.py
+ cygQt53DQuickExtras-5.dll                rst2latex.py
+ cygQt53DQuickInput-5.dll                 rst2man.py
+ cygQt53DQuickRender-5.dll                rst2odt.py
+ cygQt53DQuickScene2D-5.dll               rst2odt_prepstyles.py
+ cygQt53DRender-5.dll                     rst2pseudoxml.py
+ cygQt5Charts-5.dll                       rst2s5.py
+ cygQt5Concurrent-5.dll                   rst2xetex.py
+ cygQt5Core-5.dll                         rst2xml.py
+ cygQt5DataVisualization-5.dll            rstpep2html.py
+ cygQt5DBus-5.dll                         rsync.exe
+ cygQt5Designer-5.dll                     ruby.exe
+ cygQt5DesignerComponents-5.dll           run.exe
+ cygQt5Gui-5.dll                          runcon.exe
+ cygQt5Help-5.dll                         rungs
+ cygQt5Location-5.dll                     rvi
+ cygQt5Multimedia-5.dll                   rview
+ cygQt5MultimediaQuick_p-5.dll            rvim
+ cygQt5MultimediaWidgets-5.dll            savi
+ cygQt5Network-5.dll                      scor2prt.exe
+ cygQt5OpenGL-5.dll                       scp.exe
+ cygQt5Positioning-5.dll                  script.exe
+ cygQt5PrintSupport-5.dll                 scriptreplay.exe
+ cygQt5Qml-5.dll                          sdiff.exe
+ cygQt5Quick-5.dll                        sed.exe
+ cygQt5QuickParticles-5.dll               seq.exe
+ cygQt5QuickTest-5.dll                    setfacl.exe
+ cygQt5QuickWidgets-5.dll                 setmetamode.exe
+ cygQt5Script-5.dll                       setsid.exe
+ cygQt5SerialPort-5.dll                   sftp.exe
+ cygQt5Sql-5.dll                          sgmlwhich
+ cygQt5Svg-5.dll                          sh.exe
+ cygQt5Test-5.dll                         sha1sum.exe
+ cygQt5TextToSpeech-5.dll                 sha224sum.exe
+ cygQt5WebChannel-5.dll                   sha256sum.exe
+ cygQt5WebKit-5.dll                       sha384sum.exe
+ cygQt5WebKitWidgets-5.dll                sha512sum.exe
+ cygQt5WebSockets-5.dll                   shasum
+ cygQt5Widgets-5.dll                      showrgb.exe
+ cygQt5X11Extras-5.dll                    shred.exe
+ cygQt5XcbQpa-5.dll                       shuf.exe
+ cygQt5Xml-5.dll                          simpdftex
+ cygQt5XmlPatterns-5.dll                  sip.exe
+ cygQtCLucene-4.dll                       size.exe
+ cygQtCore-4.dll                          sjisconv.exe
+ cygQtDBus-4.dll                          sleep.exe
+ cygQtDeclarative-4.dll                   slogin
+ cygQtDesigner-4.dll                      smtpd.py
+ cygQtDesignerComponents-4.dll            soelim.exe
+ cygQtGui-4.dll                           solid-hardware5.exe
+ cygQtHelp-4.dll                          sort.exe
+ cygQtMultimedia-4.dll                    speech-dispatcher.exe
+ cygQtNetwork-4.dll                       sphinx-apidoc
+ cygQtOpenGL-4.dll                        sphinx-autogen
+ cygQtScript-4.dll                        sphinx-build
+ cygQtScriptTools-4.dll                   sphinx-quickstart
+ cygQtSql-4.dll                           splain
+ cygQtSvg-4.dll                           split.exe
+ cygQtTest-4.dll                          splitdiff
+ cygQtWebKit-4.dll                        ssconvert.exe
+ cygQtXml-4.dll                           ssdiff.exe
+ cygQtXmlPatterns-4.dll                   ssgrep.exe
+ cygquadmath-0.dll                        ssh.exe
+ cygquvi-0.9-0-9-4.dll                    ssh-add.exe
+ cygqzeitgeist-1.dll                      ssh-agent.exe
+ cygreadline7.dll                         ssh-copy-id
+ cygrest-0.7-0.dll                        ssh-host-config
+ cygrest-extras-0.7-0.dll                 ssh-keygen.exe
+ cygrpm-3.dll                             ssh-keyscan.exe
+ cygrpmbuild-3.dll                        ssh-user-config
+ cygrpmio-3.dll                           ssindex.exe
+ cygrpmsign-3.dll                         ssp.exe
+ cygrsvg-2-2.dll                          stat.exe
+ cygrsync-2.dll                           stdbuf.exe
+ cygruby230.dll                           stg
+ cygrunsrv.exe                            strace.exe
+ cygsasl2-3.dll                           strings.exe
+ cygSDL_image-1-2-0.dll                   strip.exe
+ cygSDL_mixer-1-2-0.dll                   stty.exe
+ cygSDL_ttf-2-0-0.dll                     sum.exe
+ cygSDL-1-2-0.dll                         svn.exe
+ cygsecret-1-0.dll                        svn_load_dirs
+ cygserf-1-0.dll                          svnadmin.exe
+ cygserver-config                         svnbench.exe
+ cygsigsegv-2.dll                         svndumpfilter.exe
+ cygSM-6.dll                              svnfsfs.exe
+ cygsmartcols-1.dll                       svn-load
+ cygsmime3.dll                            svnlook.exe
+ cygsndfile-1.dll                         svnmucc.exe
+ cygsnmp-30.dll                           svnrdump.exe
+ cygsodium-18.dll                         svnserve.exe
+ cygsoftokn3.chk                          svnsync.exe
+ cygsoftokn3.dll                          svnversion.exe
+ cygsolid-4.dll                           sync.exe
+ cygsoup-2.4-1.dll                        synctex.exe
+ cygsoup-gnome-2.4-1.dll                  t1ascii.exe
+ cygspectre-1.dll                         t1asm.exe
+ cygspeechd-2.dll                         t1binary.exe
+ cygspreadsheet-1-12-35.dll               t1disasm.exe
+ cygsqlite3-0.dll                         t1dotlessj.exe
+ cygssh2-1.dll                            t1lint.exe
+ cygssl-1.0.0.dll                         t1mac.exe
+ cygssl3.dll                              t1rawafm.exe
+ cygssp-0.dll                             t1reencode.exe
+ cygstart.exe                             t1testpage.exe
+ cygstartup-notification-1-0.dll          t1unmac.exe
+ cygstdc++-6.dll                          t4ht.exe
+ cygsvn_client-1-0.dll                    tabs.exe
+ cygsvn_delta-1-0.dll                     tac.exe
+ cygsvn_diff-1-0.dll                      tail.exe
+ cygsvn_fs_base-1-0.dll                   tailf.exe
+ cygsvn_fs_fs-1-0.dll                     tangle.exe
+ cygsvn_fs_util-1-0.dll                   tar.exe
+ cygsvn_fs_x-1-0.dll                      tbl.exe
+ cygsvn_fs-1-0.dll                        tclsh
+ cygsvn_ra_local-1-0.dll                  tclsh8.6.exe
+ cygsvn_ra_serf-1-0.dll                   tee.exe
+ cygsvn_ra_svn-1-0.dll                    test.exe
+ cygsvn_ra-1-0.dll                        testlibusb.exe
+ cygsvn_repos-1-0.dll                     testlibusb-win.exe
+ cygsvn_subr-1-0.dll                      tex.exe
+ cygsvn_swig_perl-1-0.dll                 tex2xindy.exe
+ cygsvn_swig_py-1-0.dll                   tex4ht.exe
+ cygsvn_wc-1-0.dll                        texconfig
+ cygsybdb-5.dll                           texconfig-dialog
+ cygsynctex-1.dll                         texconfig-sys
+ cygsyndication-4.dll                     texhash
+ cygtasn1-6.dll                           texlinks
+ cygtdb-1.dll                             texlive_generate_fmtutil
+ cygTECkit_Compiler-0.dll                 texlive_rebuild_formats
+ cygTECkit-0.dll                          texlive-enable-fontconfig
+ cygtexlua52-5.dll                        texlua
+ cygtexluajit-2.dll                       texluac
+ cygthai-0.dll                            texluajit
+ cygthreadweaver-4.dll                    texluajitc
+ cygticw-10.dll                           tfmtodit.exe
+ cygtiff-6.dll                            tftopl.exe
+ cygtiffxx-6.dll                          thresholder.py
+ cygtotem-plparser-18.dll                 tic.exe
+ cygtotem-plparser-mini-18.dll            tie.exe
+ cygtxc_dxtn.dll                          timeout.exe
+ cygudunits2-0.dll                        tkconch
+ cygUil-4.dll                             tkjpeg
+ cygunistring-2.dll                       tkmore
+ cygusb0.dll                              tkpod
+ cygusb-1.0.dll                           tlmgr
+ cyguuid-1.dll                            toe.exe
+ cygvoikko-1.dll                          togeomview.exe
+ cygvorbis-0.dll                          touch.exe
+ cygvorbisenc-2.dll                       tput.exe
+ cygvorbisfile-3.dll                      tr.exe
+ cygwebkitgtk-1.0-0.dll                   trial
+ cygwebp-5.dll                            troff.exe
+ cygwebp-7.dll                            true.exe
+ cygwebpmux-1.dll                         truncate.exe
+ cygwebpmux-3.dll                         trust.exe
+ cygwin1.dll                              tset.exe
+ cygwin-console-helper.exe                tsort.exe
+ cygwnck-1-22.dll                         ttf2afm.exe
+ cygwrap-0.dll                            ttf2pk.exe
+ cygX11-6.dll                             ttf2tfm.exe
+ cygX11-xcb-1.dll                         ttfdump.exe
+ cygxapian-22.dll                         ttftotype42.exe
+ cygXau-6.dll                             tty.exe
+ cygXaw-7.dll                             twist
+ cygxcb-1.dll                             twistd
+ cygxcb-dri2-0.dll                        tzselect
+ cygxcb-glx-0.dll                         tzset.exe
+ cygxcb-icccm-4.dll                       ucdtooff.exe
+ cygxcb-image-0.dll                       ul.exe
+ cygxcb-keysyms-1.dll                     umount.exe
+ cygxcb-randr-0.dll                       uname.exe
+ cygxcb-render-0.dll                      unexpand.exe
+ cygxcb-render-util-0.dll                 unidecode
+ cygxcb-shape-0.dll                       uniq.exe
+ cygxcb-shm-0.dll                         unix-lpr.sh
+ cygxcb-sync-1.dll                        unlink.exe
+ cygxcb-util-1.dll                        unlzma
+ cygxcb-xfixes-0.dll                      unwrapdiff
+ cygxcb-xinerama-0.dll                    unxz
+ cygxcb-xkb-1.dll                         upbibtex.exe
+ cygXcomposite-1.dll                      update-ca-trust
+ cygXcursor-1.dll                         updatedb
+ cygXdamage-1.dll                         update-desktop-database.exe
+ cygXdmcp-6.dll                           update-mime-database.exe
+ cygXext-6.dll                            updmap
+ cygXfixes-3.dll                          updmap-sys
+ cygXft-2.dll                             updmap-user
+ cygXi-6.dll                              updvitype.exe
+ cygXinerama-1.dll                        upmendex.exe
+ cygxkbcommon-0.dll                       upmpost.exe
+ cygxkbcommon-x11-0.dll                   uppltotf.exe
+ cygXm-4.dll                              uptex.exe
+ cygxml2-2.dll                            uptftopl.exe
+ cygXmu-6.dll                             users.exe
+ cygXpm-4.dll                             uuidgen.exe
+ cygXrandr-2.dll                          vdir.exe
+ cygXrender-1.dll                         vftovp.exe
+ cygXRes-1.dll                            vi.exe
+ cygxslt-1.dll                            view
+ cygXss-1.dll                             viewer.py
+ cygXt-6.dll                              vim.exe
+ cygXtst-6.dll                            vimdiff
+ cygyaml-0-2.dll                          vimtutor
+ cygz.dll                                 vimx
+ cygzbar-0.dll                            vlna.exe
+ cygzbargtk-0.dll                         vptovf.exe
+ cygzinnia-0.dll                          vrml2oogl.exe
+ cygzmq-5.dll                             wc.exe
+ cygznc-1.6.dll                           weave.exe
+ cygzzip-0-13.dll                         wftopfa
+ cygzzipfseeko-0-13.dll                   wget.exe
+ cygzzipmmapped-0-13.dll                  whatis.exe
+ cygzzipwrap-0-13.dll                     wheel-2.7
+ cython                                   wheel-3.6
+ cython3                                  whereis.exe
+ cythonize                                which.exe
+ cythonize3                               who.exe
+ dash.exe                                 whoami.exe
+ date.exe                                 widget
+ dbilogstrip                              windmc.exe
+ dbiprof                                  windres.exe
+ dbiproxy                                 wish
+ dd.exe                                   wish8.6.exe
+ dehtmldiff                               wofm2opl.exe
+ desktop-file-edit                        wopl2ofm.exe
+ desktop-file-install.exe                 wovf2ovp.exe
+ desktop-file-validate.exe                wovp2ovf.exe
+ detex.exe                                x86_64-pc-cygwin-c++.exe
+ devnag.exe                               x86_64-pc-cygwin-g++.exe
+ df.exe                                   x86_64-pc-cygwin-gcc.exe
+ dialog.exe                               x86_64-pc-cygwin-gcc-6.4.0.exe
+ diff.exe                                 x86_64-pc-cygwin-gcc-ar.exe
+ diff3.exe                                x86_64-pc-cygwin-gcc-nm.exe
+ dir.exe                                  x86_64-pc-cygwin-gcc-ranlib.exe
+ dircolors.exe                            x86_64-pc-cygwin-gfortran.exe
+ dirname.exe                              x86_64-unknown-cygwin-pkg-config.exe
+ disdvi.exe                               x86_64-w64-mingw32-addr2line.exe
+ dlltool.exe                              x86_64-w64-mingw32-ar.exe
+ dllwrap.exe                              x86_64-w64-mingw32-as.exe
+ dnsdomainname                            x86_64-w64-mingw32-c++.exe
+ domainname                               x86_64-w64-mingw32-c++filt.exe
+ dt2dv.exe                                x86_64-w64-mingw32-cpp.exe
+ du.exe                                   x86_64-w64-mingw32-dlltool.exe
+ dumper.exe                               x86_64-w64-mingw32-dllwrap.exe
+ dv2dt.exe                                x86_64-w64-mingw32-elfedit.exe
+ dvi2fax                                  x86_64-w64-mingw32-g++.exe
+ dvi2tty.exe                              x86_64-w64-mingw32-gcc.exe
+ dvibook.exe                              x86_64-w64-mingw32-gcc-6.4.0.exe
+ dviconcat.exe                            x86_64-w64-mingw32-gcc-ar.exe
+ dvicopy.exe                              x86_64-w64-mingw32-gcc-nm.exe
+ dvidvi.exe                               x86_64-w64-mingw32-gcc-ranlib.exe
+ dvilj.exe                                x86_64-w64-mingw32-gcov.exe
+ dvilj2p.exe                              x86_64-w64-mingw32-gcov-dump.exe
+ dvilj4.exe                               x86_64-w64-mingw32-gcov-tool.exe
+ dvilj4l.exe                              x86_64-w64-mingw32-gfortran.exe
+ dvilualatex                              x86_64-w64-mingw32-gprof.exe
+ dviluatex                                x86_64-w64-mingw32-ld.bfd.exe
+ dvipdf                                   x86_64-w64-mingw32-ld.exe
+ dvipdfm                                  x86_64-w64-mingw32-nm.exe
+ dvipdfmx                                 x86_64-w64-mingw32-objcopy.exe
+ dvipdft                                  x86_64-w64-mingw32-objdump.exe
+ dvipng.exe                               x86_64-w64-mingw32-pkg-config.exe
+ dvipos.exe                               x86_64-w64-mingw32-ranlib.exe
+ dvips.exe                                x86_64-w64-mingw32-readelf.exe
+ dvired                                   x86_64-w64-mingw32-size.exe
+ dviselect.exe                            x86_64-w64-mingw32-strings.exe
+ dvisvgm.exe                              x86_64-w64-mingw32-strip.exe
+ dvitodvi.exe                             x86_64-w64-mingw32-windmc.exe
+ dvitype.exe                              x86_64-w64-mingw32-windres.exe
+ easy_install                             xargs.exe
+ easy_install-2.7                         xdvi
+ easy_install-3.6                         xdvipdfmx.exe
+ ebb                                      xdvi-xaw.exe
+ echo.exe                                 xetex.exe
+ ed.exe                                   xindy.mem
+ editdiff                                 xml2-config
+ editrights.exe                           xml2odf
+ egrep                                    xmlcatalog.exe
+ elfedit.exe                              xmllint.exe
+ enc2xs                                   xsltproc.exe
+ encguess                                 xsubpp
+ enhancer.py                              xxd.exe
+ env.exe                                  xz.exe
+ eps2eps                                  xzcat
+ epsffit.exe                              xzcmp
+ epsg_tr.py                               xzdec.exe
+ eptex.exe                                xzdiff
+ eqn.exe                                  xzegrep
+ eqn2graph                                xzfgrep
+ erb                                      xzgrep
+ espdiff                                  xzless
+ esri2wkt.py                              xzmore
+ etex                                     yes.exe
+ euptex.exe                               zcat
+ eview                                    zcmp
+ evim                                     zdiff
+ ex                                       zegrep
+ expand.exe                               zfgrep
+ explode.py                               zforce
+ expr.exe                                 zgrep
+ extconv.exe                              zipdetails
+ extractbb                                zless
+ f2py2                                    zmore
+ f2py3                                    znc.exe
+ f95                                      znew
+ factor.exe
+
+Andrew Fastenau@DESKTOP-BP37MGB /usr/bin
+$ cd
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ history | grep /usr/bin
+  204  cd /usr/bin
+  207  /usr/bin
+  208  cd /usr/bin
+  275  history | grep /usr/bin
+  289  history | grep /usr/bin
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ !207
+/usr/bin
+-bash: /usr/bin: Is a directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ /usr/bin
+-bash: /usr/bin: Is a directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ /usr/bin
+-bash: /usr/bin: Is a directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ !!
+/usr/bin
+-bash: /usr/bin: Is a directory

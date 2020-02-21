@@ -1,0 +1,185 @@
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ file etc/shadow
+etc/shadow: cannot open `etc/shadow' (No such file or directory)
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ file /etc/shadow
+/etc/shadow: cannot open `/etc/shadow' (No such file or directory)
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ less /etc/shadow
+/etc/shadow: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ id
+uid=197609(Andrew Fastenau) gid=197609(Andrew Fastenau) groups=197609(Andrew Fastenau),401408(Medium Mandatory Level),545(Users),4(INTERACTIVE),66049(CONSOLE LOGON),11(Authenticated Users),15(This Organization),68588(MicrosoftAccount+andrewfastenau97@gmail.com),113(Local account),66048(LOCAL),262180(Cloud Account Authentication)
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd /etc/shadow
+-bash: cd: /etc/shadow: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd /etc/group
+-bash: cd: /etc/group: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd /etc/passwd
+-bash: cd: /etc/passwd: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ..
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd /etc/passwd
+-bash: cd: /etc/passwd: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd /etc/group
+-bash: cd: /etc/group: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd /etc/shadow
+-bash: cd: /etc/shadow: No such file or directory
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'   foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ rm foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ mkdir COMPHYS
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'   COMPHYS
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd COMPHYS
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls
+foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rw-r--r-- 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 15:54 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls
+foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rw-r--r-- 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 16:04 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ chmod 600 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rw------- 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 16:04 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ chmod +x foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rwx--x--x 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 16:04 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ rm foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ rm -f foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ unmask
+-bash: unmask: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ umask
+0022
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rw-r--r-- 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 16:14 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ rm -f foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ umask 0000
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls -l foo.txt
+-rw-rw-rw- 1 Andrew Fastenau Andrew Fastenau 0 Feb 20 16:15 foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ rm foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ umask 0022
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ > foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ su [-[l]] [user]
+-bash: su: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ su -
+-bash: su: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ su -c 'ls'
+-bash: su: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ su -c 'ls -l /root/*'
+-bash: su: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ sudo backup_script
+-bash: sudo: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ sudo -l
+-bash: sudo: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ chown
+chown: missing operand
+Try 'chown --help' for more information.
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ echo bill and karen
+bill and karen
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$

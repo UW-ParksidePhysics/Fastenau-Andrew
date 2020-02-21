@@ -1,0 +1,173 @@
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+    14460   20048   14460      14648  pty0      197609 17:09:28 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps x
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+     7292   20048    7292       1772  pty0      197609 17:09:57 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps | less
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps | less
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps | less
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps aux
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+    15460   20048   15460      19260  pty0      197609 17:13:23 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ top
+-bash: top: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ps aux
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+     8768   20048    8768       2456  pty0      197609 17:14:36 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ top
+-bash: top: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo I tried Dr. Parker
+I tried Dr. Parker
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xlogo
+-bash: xlogo: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ gedit
+-bash: gedit: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ kwrite
+-bash: kwrite: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xlogo &
+[1] 19012
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+    17652   20048   17652       7940  pty0      197609 17:22:11 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+[1]+  Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ jobs
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ fg %1
+-bash: fg: %1: no such job
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo ctrl-c
+ctrl-c
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ bg %1
+-bash: bg: %1: no such job
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ kill
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xlogo &
+[1] 10728
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+kill 28401
+-bash: kill: (28401) - No such process
+[1]+  Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xlogo &
+[1] 16764
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+kill -1 13546
+-bash: kill: (13546) - No such process
+[1]+  Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xlogo &
+[1] 12276
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+xlogo &
+[2] 15684
+[1]   Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+xlogo &
+[3] 9492
+[2]   Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ -bash: xlogo: command not found
+ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     3060       1    3060       3060  ?         197609 17:05:05 /usr/bin/mintty
+    14200   20048   14200      10052  pty0      197609 17:29:47 /usr/bin/ps
+    20048    3060   20048       7524  pty0      197609 17:05:05 /usr/bin/bash
+[3]+  Exit 127                xlogo
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ kill -INT 9492
+-bash: kill: (9492) - No such process
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ kill -l
+ 1) SIGHUP       2) SIGINT       3) SIGQUIT      4) SIGILL       5) SIGTRAP
+ 6) SIGABRT      7) SIGEMT       8) SIGFPE       9) SIGKILL     10) SIGBUS
+11) SIGSEGV     12) SIGSYS      13) SIGPIPE     14) SIGALRM     15) SIGTERM
+16) SIGURG      17) SIGSTOP     18) SIGTSTP     19) SIGCONT     20) SIGCHLD
+21) SIGTTIN     22) SIGTTOU     23) SIGIO       24) SIGXCPU     25) SIGXFSZ
+26) SIGVTALRM   27) SIGPROF     28) SIGWINCH    29) SIGPWR      30) SIGUSR1
+31) SIGUSR2     32) SIGRTMIN    33) SIGRTMIN+1  34) SIGRTMIN+2  35) SIGRTMIN+3
+36) SIGRTMIN+4  37) SIGRTMIN+5  38) SIGRTMIN+6  39) SIGRTMIN+7  40) SIGRTMIN+8
+41) SIGRTMIN+9  42) SIGRTMIN+10 43) SIGRTMIN+11 44) SIGRTMIN+12 45) SIGRTMIN+13
+46) SIGRTMIN+14 47) SIGRTMIN+15 48) SIGRTMIN+16 49) SIGRTMAX-15 50) SIGRTMAX-14
+51) SIGRTMAX-13 52) SIGRTMAX-12 53) SIGRTMAX-11 54) SIGRTMAX-10 55) SIGRTMAX-9
+56) SIGRTMAX-8  57) SIGRTMAX-7  58) SIGRTMAX-6  59) SIGRTMAX-5  60) SIGRTMAX-4
+61) SIGRTMAX-3  62) SIGRTMAX-2  63) SIGRTMAX-1  64) SIGRTMAX
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ killall xlogo
+-bash: killall: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ xload
+-bash: xload: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ tload
+-bash: tload: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ pstree
+-bash: pstree: command not found

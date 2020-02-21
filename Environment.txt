@@ -1,0 +1,83 @@
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ printev | less
+-bash: printev: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ printev USER
+-bash: printev: command not found
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ set | less
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $HOME
+/home/Andrew Fastenau
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ alias
+alias vi='vim'
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $DISPLAY
+
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $LANG
+en_US.UTF-8
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $PATH
+/usr/local/bin:/usr/bin:/cygdrive/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/cygdrive/c/Program Files (x86)/Intel/iCLS Client:/cygdrive/c/Program Files/Intel/iCLS Client:/cygdrive/c/WINDOWS/system32:/cygdrive/c/WINDOWS:/cygdrive/c/WINDOWS/System32/Wbem:/cygdrive/c/WINDOWS/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/cygdrive/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/cygdrive/c/Program Files/PuTTY:/cygdrive/c/Program Files (x86)/Avogadro/bin:/cygdrive/c/Program Files (x86)/Silverfrost/FTN95:/cygdrive/c/WINDOWS/System32/OpenSSH:/cygdrive/c/Program Files/Intel/WiFi/bin:/cygdrive/c/Program Files/Common Files/Intel/WirelessCommon:/cygdrive/c/Program Files/Git/cmd:/cygdrive/c/Users/Andrew Fastenau/AppData/Local/Microsoft/WindowsApps:/cygdrive/c/texlive/2019/bin/win32:/usr/lib/lapack
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $PWD
+/home/Andrew Fastenau
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $TERM
+xterm
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ foo="This is some"
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $foo
+This is some
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ foo=$foo"text."
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ echo $foo
+This is sometext.
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ ls
+act.pdb      gcc_volume.xmgr    gcmo_volume.xmgr  goo_volume.xmgr
+act_r.xmgr   gch_volume.xmgr    gco_volume.xmgr   ls-output.txt
+dimer.pdb    gcmcm_volume.xmgr  ghh_volume.xmgr
+dimer.pdb.1  gcmh_volume.xmgr   goh_volume.xmgr
+
+Andrew Fastenau@DESKTOP-BP37MGB ~
+$ cd ..
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ ls
+'Andrew Fastenau'   COMPHYS
+
+Andrew Fastenau@DESKTOP-BP37MGB /home
+$ cd COMPHYS
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ ls
+foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ vi foo.txt
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$ echo I did this in the VIM editor cause I am cool like that, yo
+I did this in the VIM editor cause I am cool like that, yo
+
+Andrew Fastenau@DESKTOP-BP37MGB /home/COMPHYS
+$
